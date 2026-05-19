@@ -1,5 +1,9 @@
 name: My First Workflow 
 on: 
+ push:
+  branches:
+    - main
+    - dev
  workflow_dispatch: 
     # this is the event trigger for the workflow to run
 jobs:
