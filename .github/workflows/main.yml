@@ -3,9 +3,6 @@ on:
  push:
   branches:
     - main
-    - dev
- workflow_dispatch: 
-    # this is the event trigger for the workflow to run
 jobs:
   job-name-1:
     runs-on: ubuntu-latest
